@@ -138,7 +138,7 @@
 	font-weight: 400;
 	line-height: 24px;
 	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 .about-section .content-text{
 	padding-top: 50px;
@@ -151,7 +151,7 @@
 	line-height: 50px;
 	padding-bottom: 10px;
 	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 .about-section .content-text span{
 	color: #2f323c;
@@ -258,7 +258,7 @@
 	font-weight: 400;
 	line-height: 24px;
 	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 .about-section .content-text{
 	padding-top: 50px;
@@ -271,7 +271,7 @@
 	line-height: 50px;
 	padding-bottom: 10px;
 	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 .about-section .content-text span{
 	color: #2f323c;
@@ -338,7 +338,7 @@
 
 /* Common CSS */
  h1, h2, h3, h4, h5, h6 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #222222;
   line-height: 1.2;
   font-weight: 400;
@@ -371,8 +371,8 @@ h5 {
 }
 h6 {
   font-size: 16px;
-  line-height: 24px;
-  color: #fff;
+  line-height: 15px;
+  color: #000;
 }
 p {
      margin: 0;
@@ -610,7 +610,7 @@ p {
   background: -webkit-linear-gradient(-45deg, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
   background: -o-linear-gradient(-45deg, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
   background: -ms-linear-gradient(-45deg, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
-  background: linear-gradient(135deg, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
+  background: linear-gradient(135deg, rgba(128,0,255,1) 0%, rgba(225,0,255,1) 100%)
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8000ff', endColorstr='#e100ff', GradientType=1 );
   -webkit-transition: all .3s ease-out;
   -moz-transition: all .3s ease-out;
@@ -637,7 +637,7 @@ p {
      width: 100%;
      height: 100%;
      overflow: visible;
-     background: #ffffff url("../images/preloader.gif") no-repeat center center;
+     background: #ffffff;
 }
 /* Scroll To Top CSS Start */
  #dyscrollup-btn {
@@ -789,7 +789,7 @@ p {
     color: #333333 !important;
     text-transform: capitalize;
     padding: 30px 10px;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
     position: relative;
 	font-size: 16px;
     font-weight: 500;
@@ -815,7 +815,7 @@ p {
     padding: 12px 15px 15px;
     border-bottom: 1px solid rgba(0,0,0,.15);
     text-transform: capitalize;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 .stellarnav ul li ul li a:hover {
     padding-left: 20px;
@@ -1108,7 +1108,7 @@ p {
     font-size: 18px;
     color: #ffffff;
     margin-bottom: 0;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 .countdown-container .countdown-value {
     width: 80px;
@@ -1120,7 +1120,7 @@ p {
     margin-top: 10px;
     border-radius: 0;
     position: relative;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 /* Banner Two Start */
@@ -1136,7 +1136,7 @@ p {
 }
 .bannre-two-area .banner-col h1 {
   color: #fff;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Banner Three Start */
@@ -1372,7 +1372,7 @@ p {
 .name-box p {
   margin-bottom: 10px;
   font-size: 14px;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 20px;
 }
 .all-speakers-btn {
@@ -1402,7 +1402,7 @@ p {
   line-height: 36px;
   font-weight: 600;
   color: #222222;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin-top: -10px;
 }
 .speakers-box {
@@ -1471,13 +1471,13 @@ p {
 .counter-box p {
   color: #fff;
   font-size: 16px;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .counter {
   color: #fff;
   font-size: 30px;
   font-weight: 400;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
   position: relative;
   display: inline-block;
   margin-bottom: 20px;
@@ -1700,7 +1700,7 @@ p {
 }
 .venue-col p {
   color: #ffffff;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
 }
 .venue-col ul {
@@ -2618,7 +2618,7 @@ background: #8000ff;
 
 .main-footer{
 	position:relative;
-	padding:120px 0px 15px;
+	padding:30px 0px 15px;
 	background-color:#101130;
 }
 
@@ -2665,7 +2665,7 @@ background: #8000ff;
 
 .main-footer .social-icons{
 	position:relative;
-	margin-top:45px;
+	margin-top:15px;
 }
 
 .main-footer .social-icons li{
@@ -2691,8 +2691,8 @@ background: #8000ff;
 
 .main-footer .footer-nav{
 	position:relative;
-	padding:30px 0px;
-	margin-top:50px;
+	padding:10px 0px;
+	margin-top:10px;
 	text-align:center;
 	background-color:#0d0e2b;
 }
@@ -2711,7 +2711,7 @@ background: #8000ff;
 	position:relative;
 	color:#ffffff;
 	font-size:14px;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	-webkit-transition:all 300ms ease;
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
@@ -2728,7 +2728,7 @@ background: #8000ff;
 .main-footer .footer-bottom{
 	position:relative;
 	text-align:center;
-	padding:25px 0px 0px;
+	padding:15px 0px 0px;
 }
 
 .main-footer .footer-bottom .copyright{
