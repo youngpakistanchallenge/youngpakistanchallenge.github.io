@@ -338,7 +338,7 @@
 
 /* Common CSS */
  h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: #222222;
   line-height: 1.2;
   font-weight: 400;
@@ -604,13 +604,13 @@ p {
   height: 50px;
   border-radius: 1px;
   opacity: 0.8;
-  background: rgba(20, 86, 121);
+  background: rgba(128,0,255,1);
   background: -moz-linear-gradient(-45deg, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
   background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(20, 86, 121)), color-stop(100%, rgba(199, 12, 85)));
-  background: -webkit-linear-gradient(-45deg, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
+  background: -webkit-linear-gradient(left, rgba(128,0,255,0.85) 0%, rgba(225,0,255,0.85) 100%);
   background: -o-linear-gradient(-45deg, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
   background: -ms-linear-gradient(-45deg, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
-  background: linear-gradient(135deg, rgba(128,0,255,1) 0%, rgba(225,0,255,1) 100%)
+  background: linear-gradient(to right, rgba(128,0,255,0.85) 0%, rgba(225,0,255,0.85) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8000ff', endColorstr='#e100ff', GradientType=1 );
   -webkit-transition: all .3s ease-out;
   -moz-transition: all .3s ease-out;
@@ -718,13 +718,13 @@ p {
 /* Header Topbar CSS */
 .header-topbar-area {
   padding: 10px 0 0;
-  background: rgba(20, 86, 121);
+  background: rgba(128,0,255,1);
   background: -moz-linear-gradient(-45deg, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
   background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(20, 86, 121)), color-stop(100%, rgba(199, 12, 85)));
-  background: -webkit-linear-gradient(-45deg, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(128,0,255,1) 0%, rgba(225,0,255,1) 100%);
   background: -o-linear-gradient(-45deg, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
   background: -ms-linear-gradient(-45deg, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
-  background: linear-gradient(135deg, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
+  background: linear-gradient(135deg, rgba(128,0,255,1) 0%, rgba(225,0,255,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8000ff', endColorstr='#e100ff', GradientType=1 );
 }
 .header-topbar-col {
@@ -1287,7 +1287,7 @@ p {
     >>>>>>>>>> 05. Features CSS <<<<<<<<<<
 --------------------------------------------------*/
 .features-area {
-  background: #f6f6f6;
+  background: #ffffff;
 }
 .features-area .title-col {
   margin-bottom: 30px;
@@ -1302,7 +1302,7 @@ p {
   margin-bottom: 30px;
 }
 .features-box {
-  border: 1px solid #ffffff;
+  border: 2px solid #f44691;
   padding: 20px 20px;
   border-radius: 20px;
   margin-bottom: 30px;
@@ -1355,13 +1355,13 @@ p {
 .speakers-box {
   width: 100%;
   padding: 7px 5px 5px 5px;
-  background: rgba(20, 86, 121);
+  background: rgba(128,0,255,1);
   background: -moz-linear-gradient(-45deg, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
   background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(20, 86, 121)), color-stop(100%, rgba(199, 12, 85)));
-  background: -webkit-linear-gradient(-45deg, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(128,0,255,1) 0%, rgba(225,0,255,1) 100%);
   background: -o-linear-gradient(-45deg, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
   background: -ms-linear-gradient(-45deg, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
-  background: linear-gradient(135deg, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
+  background: linear-gradient(135deg, rgba(128,0,255,1) 0%, rgba(225,0,255,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8000ff', endColorstr='#e100ff', GradientType=1 );
 }
 .name-box {
@@ -1738,13 +1738,13 @@ p {
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
   border-radius: 1px;
-  background: rgba(20, 86, 121);
+  background: rgba(128,0,255,1);
   background: -moz-linear-gradient(left, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
   background: -webkit-gradient(left top, right top, color-stop(0%, rgba(20, 86, 121)), color-stop(100%, rgba(199, 12, 85)));
-  background: -webkit-linear-gradient(left, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(128,0,255,1) 0%, rgba(225,0,255,1) 100%);
   background: -o-linear-gradient(left, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
   background: -ms-linear-gradient(left, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
-  background: linear-gradient(to right, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
+  background: linear-gradient(135deg, rgba(128,0,255,1) 0%, rgba(225,0,255,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8000ff', endColorstr='#e100ff', GradientType=1 );
 }
 .venue-img img {
@@ -1896,13 +1896,13 @@ p {
     height: 100px;
     text-align: center;
     border-radius: 50%;
-    background: rgba(20, 86, 121);
+    background: rgba(128,0,255,1);
     background: -moz-linear-gradient(left, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(20, 86, 121)), color-stop(100%, rgba(199, 12, 85)));
-    background: -webkit-linear-gradient(left, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
+    background: -webkit-linear-gradient(left, rgba(128,0,255,0.85) 0%, rgba(225,0,255,0.85) 100%);
     background: -o-linear-gradient(left, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
     background: -ms-linear-gradient(left, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
-    background: linear-gradient(to right, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
+    background: linear-gradient(to right, rgba(128,0,255,0.85) 0%, rgba(225,0,255,0.85) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8000ff', endColorstr='#e100ff', GradientType=1 );
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -2313,13 +2313,13 @@ background: #8000ff;
   z-index: 0;
   width: 100%;
   height: 100%;
-  background: rgba(20, 86, 121);
+  background: rgba(128,0,255,1);
   background: -moz-linear-gradient(left, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
   background: -webkit-gradient(left top, right top, color-stop(0%, rgba(20, 86, 121)), color-stop(100%, rgba(199, 12, 85)));
-  background: -webkit-linear-gradient(left, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
+  background: -webkit-linear-gradient(left, rgba(128,0,255,0.85) 0%, rgba(225,0,255,0.85) 100%);
   background: -o-linear-gradient(left, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
   background: -ms-linear-gradient(left, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
-  background: linear-gradient(to right, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
+  background: linear-gradient(to right, rgba(128,0,255,0.85) 0%, rgba(225,0,255,0.85) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8000ff', endColorstr='#e100ff', GradientType=1 );
 }
 .page-name-col {
@@ -2553,13 +2553,13 @@ background: #8000ff;
     padding: 10px 10px;
     position: relative;
     border-radius: 1px;
-	background: rgba(20, 86, 121);
+	background: rgba(128,0,255,1);
 	background: -moz-linear-gradient(left, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
 	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(20, 86, 121)), color-stop(100%, rgba(199, 12, 85)));
-	background: -webkit-linear-gradient(left, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
+	background: -webkit-linear-gradient(left, rgba(128,0,255,0.85) 0%, rgba(225,0,255,0.85) 100%);
 	background: -o-linear-gradient(left, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
 	background: -ms-linear-gradient(left, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
-	background: linear-gradient(to right, rgba(20, 86, 121) 0%, rgba(199, 12, 85) 100%);
+	background: linear-gradient(to right, rgba(128,0,255,0.85) 0%, rgba(225,0,255,0.85) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8000ff', endColorstr='#e100ff', GradientType=1 );
 }
 .contact-icon {
@@ -2619,7 +2619,7 @@ background: #8000ff;
 .main-footer{
 	position:relative;
 	padding:30px 0px 15px;
-	background-color:#101130;
+	background-color:#16155a;
 }
 
 .main-footer:before{
@@ -2694,7 +2694,7 @@ background: #8000ff;
 	padding:10px 0px;
 	margin-top:10px;
 	text-align:center;
-	background-color:#0d0e2b;
+	background-color:#0f0e44;
 }
 
 .main-footer .footer-nav ul{
