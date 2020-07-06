@@ -692,7 +692,7 @@ p {
 
 /* Default Section Padding CSS */
  .default-section {
-  padding: 50px 0 50px;
+  padding: 50px 0 25px;
 }
 .default-col {
   margin-bottom: 30px;
